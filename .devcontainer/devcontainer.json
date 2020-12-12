@@ -1,0 +1,9 @@
+{
+  "name": "esta-nextjs",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "appPort": [3000],
+  "service": "app",
+  "extensions": ["dbaeumer.vscode-eslint"],
+  "postCreateCommand": "yarn install",
+  "workspaceFolder": "/usr/src/app"
+}
